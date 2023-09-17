@@ -1,4 +1,4 @@
 # Practice
-My first Git Repository for Practice.
+My First Git Repository for Practice.
 <br>
 Author - Mohit Yadav
