@@ -21,7 +21,7 @@ int main()
             printf("C is the largest of the three numbers.\n");
     }
 
-    printf("End of the program");
+    printf("End of the program\n");
     return 0;
 
 }
