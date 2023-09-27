@@ -2,15 +2,15 @@
 
 int main()
 {
-    int a = 5, sum = 0;
+    int i = 0, sum = 0;
 
-    while(a < 8)
+    while(i < 5)
     {
-         printf("hello world\n");
-         a++;
+         sum += i;
+         ++i;
     }
 
-    printf("End of loop\n");
+    printf("%d", sum);
     return 0;
 
 }
