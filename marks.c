@@ -1,11 +1,14 @@
 #include<stdio.h>
 
 int main ()
+
 {   printf("\nWelcome to the Average marks calculator !\n");
     printf("\nThis Program is made by Mohit Yadav.\n");
+
     int total_students;
     int total_subjects;
     int student_num = 1;
+
     printf("\nEnter total number of students: \n");
     scanf("%d", &total_students);
     printf("\nEnter total number of subjects: \n");
@@ -27,9 +30,10 @@ int main ()
             subject++;
         }
         avg = sum / total_subjects;
+
         printf("\nAverage of student %d is %f\n", student_num, avg);
         student_num++;
     }
-        printf("\nThanks for using Average Marks Calculator !\n");
+        printf("\nThanks for using this Program !\n");
         return 0;
 }
