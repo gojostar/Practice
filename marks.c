@@ -18,7 +18,7 @@ int main ()
     {
         printf("\nFor student no: %d \n", student_num);
         float avg;
-        int sum = 0;
+        int sum = 0;5
         int marks;
         int subject = 1;
         

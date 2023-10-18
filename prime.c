@@ -29,3 +29,4 @@ int main()
     scanf("%d", &n);
     isPrime(n);
 }
+W
