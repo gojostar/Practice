@@ -1,8 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main ()
+int main()
 
-{   printf("\nWelcome to the Average marks calculator !\n");
+{
+    printf("\nWelcome to the Average marks calculator !\n");
     printf("\nThis Program is made by Mohit Yadav.\n");
 
     int total_students;
@@ -14,14 +15,14 @@ int main ()
     printf("\nEnter total number of subjects: \n");
     scanf("%d", &total_subjects);
 
-    while( student_num <= total_students)
+    while (student_num <= total_students)
     {
         printf("\nFor student no: %d \n", student_num);
         float avg;
         int sum = 0;
         int marks;
         int subject = 1;
-        
+
         while (subject <= total_subjects)
         {
             printf("\nEnter marks for Subject %d: \n", subject);
@@ -34,6 +35,6 @@ int main ()
         printf("\nAverage of student %d is %f\n", student_num, avg);
         student_num++;
     }
-        printf("\nThanks for using this Program !\n");
-        return 0;
+    printf("\nThanks for using this Program !\n");
+    return 0;
 }
